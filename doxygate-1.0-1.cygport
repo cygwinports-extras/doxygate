@@ -1,0 +1,8 @@
+inherit qt4-qmake
+
+DESCRIPTION="Doxygen GUI frontend"
+HOMEPAGE="http://sourceforge.net/projects/doxygate/"
+SRC_URI="mirror://sourceforge/${PN}/${P}-src.tar.gz"
+PATCH_URI="1.0-iconv.patch"
+
+SRC_DIR="${P}-src"
