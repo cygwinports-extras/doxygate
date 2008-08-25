@@ -1,0 +1,12 @@
+--- origsrc/doxygate-1.1-src/doxygate.pro	2008-08-24 12:39:16.000000000 -0500
++++ src/doxygate-1.1-src/doxygate.pro	2008-08-24 22:25:40.065647400 -0500
+@@ -93,8 +93,7 @@
+ MOC_DIR = .moc
+ UI_DIR = .ui
+ OBJECTS_DIR = .obj
+-INCLUDEPATH += . \
+-    3rdParty
++INCLUDEPATH += .
+ LIBPATH += .
+ LIBS += 
+ RESOURCES = mainform.qrc
